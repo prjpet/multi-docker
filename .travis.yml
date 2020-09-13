@@ -14,7 +14,7 @@ after_succes:
     - docker build -t peterprjevara/multi-client ./client
     - docker build -t peterprjevara/multi-ngnix ./ngnix
     - docker built -t peterprjevara/mutli-server ./server
-    - docker build -t peterprjrevara/mutli-worker ./worker
+    - docker build -t peterprjevara/mutli-worker ./worker
     #log in to the docker CLI -ok
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID"
     # take the images and push them to docker hub
